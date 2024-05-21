@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.currency-toggle {
+    margin-bottom: 10px;
+}
+
+main {
+    background-color:blueviolet ;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+h2{
+    color:lightseagreen;
+    border-radius: 1px;
+    background-color: black;h
+
+}
+
+h3{
+    color:red;
+}
+
+p{
+    color:navy;
+    font-weight: bolder;
+}
+.pricing-card {
+    background-color:white;;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+}
+ul{
+    text-align:left;
+}
+.pricing-card:hover {
+    background-color:lightslategrey;
+}
+.pricing-card1:hover {
+    background-color:goldenrod;
+}
+.pricing-card2:hover {
+    background-color:aqua;
+}
+
+.pricing-card1 {
+background-color:white;
+border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+}
+.pricing-card2 {
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    }
+.currency {
+    font-weight: bold;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border:crimson;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:dimgray;
+}
+
